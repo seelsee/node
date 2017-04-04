@@ -43,6 +43,15 @@ arr.prototype = {
  //        }
  //        return this.removeAt(i);
  //    },
+	  // removeAt : function (i) {
+	  //       var len = this.array.length;
+	  //       if (i < 0 || i >= len) {
+	  //           return null;
+	  //       }
+	  //       var o = this.array[i];
+	  //       this.array = this.array.slice(0, i).concat(this.array.slice(i + 1, len));
+	  //       return o;
+	  //   },
  //    get : function (i) {
  //        var size = this.size();
  //        if (i >= 0 && i < size) {

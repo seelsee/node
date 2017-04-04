@@ -6,7 +6,7 @@ http.createServer(function(request, response) {
 	response.writeHead(200, {
 		'Content-Type':'text/html'
 	});
-	if (request.url!=="./favicon.ico") {//清除2次访问
+	if (request.url!=="./favicon.ico") {//清除2次访问,然而发现并没有什么。。。
 	var data = 'There is no rehearsal in the life , once missing , it will be lost forever.';
 	fs.writeFile('./views/write.txt', data, function(err) {
     	if (err) {
