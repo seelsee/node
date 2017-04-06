@@ -3,6 +3,13 @@ arr.prototype = {
 	map: function() {
 		this.elements = new array();
 	}
+	forEach: function(arg) {
+		var j = 1;
+		var j = this.length;
+		for (var i = 0; i < j.length; i++) {
+			arg(this[i],i,this)
+		}
+	}
 	// add : function (arg1, arg2) {
  //        if (arguments.length == 1) {
            
